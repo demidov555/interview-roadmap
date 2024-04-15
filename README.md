@@ -6,16 +6,18 @@
 
 - Отличия let const var. Производительность
 
+- Лексическое окружение
+
 #### 2 Event Loop
 https://onecompiler.com/javascript/42a3q4udt 
 
-- Task quque, Microtask quque. Когда происходит перерендер. Что хранит в себе куча, а что стек.
+- сколько потоков у js. Task quque, Microtask quque. Когда происходит перерендер. Что хранит в себе куча, а что стек.
 
 - Promise. Зачем нужен и как работает. Какие состояния есть. async await.
 
--  Garbage collector. Сборка мусора. Как и в каком именно месте работает. Что такое утечка данных
+- Garbage collector. Сборка мусора. Как и в каком именно месте работает. Что такое утечка данных
 
-- Критический путь рендеренга CRP
+- Критический путь рендеренга CRP. Блокипует ли css html? Скрипт блокирует html?
 
 - Типы рендеринга
 
@@ -27,19 +29,23 @@ https://onecompiler.com/javascript/42aacurfk
 - Какие методы есть для привязки. Что будет если вызвать 2 байнда подряд. Что внутри байнда.
 
 #### 4 Замыкания
+рассказать про замыкания 
+
 https://onecompiler.com/javascript/42aahrw6m
 
 ## Angular
 #### 1 Common
 - хуки. Constructor
 - какие бывают директивы
-- зачем нужны ng container, ng template, ng content
+- зачем нужны ng container, ng template, ng content. NgTemplateOutlet
 - способы оптимизации
+- какой подход гугл использует с работой DOM
+- что такое shadow dom
 
 #### 3 Change detection
  - какие есть стратегии
  - как можно вручную управлять
- - что такое zone js и зачем нужна
+ - что такое zone js и зачем нужна. Есть ли кейсы когда нужно использовать методы вне ангуляра?
 
 #### 3 DI
 - что это и зачем нужно
@@ -60,3 +66,7 @@ https://onecompiler.com/javascript/42aahrw6m
 - Utility types
 
 ## Practice
+
+https://onecompiler.com/javascript/42abxqkqj
+
+https://onecompiler.com/javascript/42ac2f9qv
